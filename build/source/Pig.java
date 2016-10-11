@@ -1,14 +1,13 @@
-public class Cow implements Animal {
+class Pig implements Animal {
+  private String type;
+  private String sound;
 
-  public String type;
-  public String sound;
-
-  public Cow(String type, String sound) {
+  public Pig(String type, String sound) {
     this.type = type;
     this.sound = sound;
   }
 
-  public Cow() {
+  public Pig() {
     this.type = "unknown";
     this.sound = "unknown";
   }
